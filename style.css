@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: paleb rgb(54, 54, 130);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6
+
+}
+header {
+    background-color:blue;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: right;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-in-btn {
+    background-color: powderblue;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color:blueviolet;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.signup-form {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.signup-form input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.signup-form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #181e46;
+    color: #fff;
+}
+
+.stats .stat {
+    text-align: left;
+}
+
+.stats h2 {
+    font-size: 2rem;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    background-color: blue
+    text-align center
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: #181e46;
+}
+
+.service {
+    background-color: blue;
+    text-decoration-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 22%;
+}
+
+/* Doctors Section */
+.doctors {
+    padding: 2rem;
+    background-color: blue;
+    text-align: center;
+}
+
+.doctor-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.doctor {
+    text-align: center;
+    width: 22%;
+}
+
+.doctor img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Testimonial Section */
+.testimonial {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.testimonial-item {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 45%;
+}
+
+/* CTA Section */
+.cta {
+    padding: 2rem;
+    background-color: #181e46;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cta-form input {
+    padding: 0.5rem;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.cta-form button {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #ff6b6b;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
